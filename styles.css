@@ -31,7 +31,7 @@ header {
 }
 
 .menu-icon {
-  display: none;
+  display: none !important;
   font-size: 24px;
   cursor: pointer;
 }
@@ -67,7 +67,7 @@ header {
   }
 
   .menu-icon {
-    display: block;
+    display: block!important;
   }
 }
 
