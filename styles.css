@@ -79,6 +79,7 @@ p.news{
 	font-size: 1.2em;
     margin-block-start: 1em;
     margin-block-end: 1em;
+	text-align: justify;
 }
 main p{
     margin-block-start: 0;
