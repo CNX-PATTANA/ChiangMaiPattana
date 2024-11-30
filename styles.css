@@ -70,3 +70,28 @@ header {
     display: block;
   }
 }
+
+main h1.first{
+	border-left: 10px solid #1700a6;
+    padding-left: 10px;
+}
+p.news{
+	font-size: 1.2em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+main p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+main .flex{
+    display: flex;
+}
+.no , .name{
+        flex-basis: 0;
+        flex-grow: 1;
+}
+.name p{
+    display: flex;
+    justify-content: center;
+}
