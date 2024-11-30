@@ -1,0 +1,72 @@
+* { margin: 0; padding: 0; box-sizing: border-box; } 
+body { font-family: Anuphan, sans-serif; overflow-x: hidden; }
+
+/* สไตล์สำหรับ Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 2rem; /* ขนาดปกติ */
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 780px) {
+  .logo img {
+    height: 1.5rem; /* ขนาดเมื่อหน้าจอเล็ก */
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+  }
+
+  .menu.show {
+    display: block;
+    width: 100%;
+    top: 47.2px;
+    right: 0;
+    padding: .5rem;
+    z-index: 50;
+  }
+
+  .menu li {
+    margin: 10px 0;
+    text-align: right;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
