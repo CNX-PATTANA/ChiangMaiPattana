@@ -95,3 +95,7 @@ main .flex{
     display: flex;
     justify-content: center;
 }
+
+main{
+	maegin: 0 20px;
+}
