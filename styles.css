@@ -119,7 +119,6 @@ main {
 }
 
 .-inner {
-    max-width: 50rem;
     padding: 3rem;
     margin: auto;
     transition: all 1s 1s;
@@ -129,7 +128,7 @@ main {
 }
 
 img.w-full.-campaign-logo {
-    animation: loh 8s infinite linear reverse;
+    animation: loh 5s infinite linear reverse;
     position: relative;
     will-change: top;
     aspect-ratio: 680 / 503;
