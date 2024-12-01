@@ -53,6 +53,6 @@ section#section{
 
 ul.submenu{position: absolute; background: #fff; margin-top: 20px; padding: 5px; gap: 5px;}
 ul.submenu{display: none;}
-.main-menu > li:hover .submenu {
+li:hover .submenu {
   display: flex;
 }
