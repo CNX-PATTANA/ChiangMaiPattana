@@ -10,80 +10,41 @@ header {
   align-items: center;
   background: #fff;
   padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
-  z-index: 100;
+    position: fixed;
+    width: -webkit-fill-available;
+    width: ;
+    z-index: 999;
 }
 
 .logo img {
-  height: 2rem;
+  height: 2rem; /* ขนาดปกติ */
 }
 
 .menu {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .menu li {
-  position: relative;
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .menu li a {
   text-decoration: none;
   color: #000;
   font-size: 16px;
-  border-bottom: 2px solid transparent;
-  transition: border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
 }
 
-.menu li a:hover {
+.menu li a:hover{
   border-bottom: 2px solid #d10000;
+  transition: .5s;
 }
-
-/* Submenu */
-.submenu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: none;
-}
-
-.submenu li {
-  border-bottom: 1px solid #ddd;
-}
-
-.submenu li:last-child {
-  border-bottom: none;
-}
-
-.submenu li a {
-  display: block;
-  padding: 10px 20px;
-  color: #000;
-  font-size: 14px;
-}
-
-.submenu li a:hover {
-  background: #f0f0f0;
-}
-
-/* แสดง Submenu เมื่อ hover */
-.menu-item:hover .submenu {
-  display: block;
-}
-
-/* Menu icon */
+	
 .menu-icon {
-  display: none;
+  display: none !important;
   font-size: 24px;
   cursor: pointer;
 }
@@ -91,7 +52,7 @@ header {
 /* Responsive Design */
 @media (max-width: 780px) {
   .logo img {
-    height: 1.5rem;
+    height: 1.5rem; /* ขนาดเมื่อหน้าจอเล็ก */
   }
 
   .menu {
@@ -102,39 +63,28 @@ header {
     top: 60px;
     right: 20px;
     width: 200px;
-    padding: 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .menu.show {
-        display: block;
-        width: 100%;
-        top: 47.2px;
-        right: 0;
-        padding: .5rem;
-        z-index: 50;
+    display: block;
+    width: 100%;
+    top: 47.2px;
+    right: 0;
+    padding: .5rem;
+    z-index: 50;
   }
 
   .menu li {
-    text-align: right;
     margin: 10px 0;
+    text-align: right;
   }
 
   .menu-icon {
-    display: block;
+    display: block!important;
   }
-
-  .submenu {
-    position: static;
-    box-shadow: none;
-    display: none;
-    padding-left: 20px;
-  }
-
-  .menu-item:hover .submenu {
-    display: flex;
-    flex-direction: column;
-  }
+	img.w-full.-campaign-logo {
+	    height: 100px!important;
+	}
 }
 /* Responsive Design */
 @media (max-width: 780px) {
