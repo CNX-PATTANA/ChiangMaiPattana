@@ -8,6 +8,7 @@
     width: 100%;
 }
 .card--board {
+    transition:all .5s;
     margin-bottom: 30px !important;
 }
 .card--board, .card--news, .card--primary {
