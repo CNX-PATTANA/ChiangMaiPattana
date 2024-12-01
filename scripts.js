@@ -1,7 +1,7 @@
 // ข้อมูลสมาชิกองค์กร
 const organizationData = {
     members: 35, // จำนวนสมาชิกทั้งหมด
-    executives: 6, // จำนวนผู้บริหาร
+    executives: 8, // จำนวนผู้บริหาร
     networks: 4 // จำนวนเครือข่าย
 };
 
