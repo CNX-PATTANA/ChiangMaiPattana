@@ -105,6 +105,11 @@ main .flex{
     justify-content: center;
 }
 
-main{
-	margin: 0 5%;
+
+main {
+    margin: 0 5%;
+    height: calc(100vh - 56.8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
