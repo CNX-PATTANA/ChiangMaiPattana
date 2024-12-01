@@ -1,4 +1,13 @@
 
+.card--board .card__body, .card--news .card__body, .card--primary .card__body {
+    transition: all .3s ease-in-out;
+    flex: 1;
+}
+.card__body {
+    color: #0c0c0c;
+    padding: 1.5rem;
+}
+
 @media (max-width: 1199.98px) {
     .card-deck--col-3 .card {
         flex: 0 0 calc(50% - 30px);
