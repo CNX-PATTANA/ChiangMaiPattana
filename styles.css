@@ -117,3 +117,33 @@ main {
     align-items: center;
     background: url(PATTANA.png) center;
 }
+
+.-inner {
+    max-width: 50rem;
+    padding: 3rem;
+    margin: auto;
+    transition: all 1s 1s;
+    transform: scale(1);
+    opacity: 1;
+    position: relative;
+}
+
+img.w-full.-campaign-logo {
+    animation: loh 8s infinite linear reverse;
+    position: relative;
+    will-change: top;
+    aspect-ratio: 680 / 503;
+}
+@keyframes loh {
+  0%,
+  5%,
+  95%,
+  100% {
+    top: 0rem;
+  }
+
+  50%,
+  55% {
+    top: -2rem;
+  }
+}
