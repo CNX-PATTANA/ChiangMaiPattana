@@ -4,6 +4,7 @@
 }
 .card-deck .card {
     margin-bottom: 15px;
+    width: 32%;
 }
 .card--board {
     margin-bottom: 30px !important;
@@ -21,8 +22,7 @@
 .card {
     position: relative;
     display: -ms-flexbox;
-    display: flex
-;
+    display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
@@ -32,17 +32,24 @@
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
 }
-@media (min-width: 576px) {
-    .card-deck {
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-}
 .card-deck {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
+    gap: 0;
+}
+@media (min-width: 780px) {
+    .card-deck {
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        flex-direction: row !important;
+        gap: 5px !important;
+    }
+    .card-deck .card {
+        margin-bottom: 15px;
+        width: 100%;
+    }
 }
