@@ -82,7 +82,7 @@ header {
     display: block!important;
   }
 	img.w-full.-campaign-logo {
-	    height: 100px;
+	    height: 100px!important;
 	}
 }
 
