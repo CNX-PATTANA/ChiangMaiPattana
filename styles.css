@@ -80,6 +80,9 @@ header {
   .menu-icon {
     display: block!important;
   }
+	img.w-full.-campaign-logo {
+	    height: 100px;
+	}
 }
 
 main h1.first{
@@ -131,7 +134,7 @@ img.w-full.-campaign-logo {
     animation: loh 5s infinite linear reverse;
     position: relative;
     will-change: top;
-    aspect-ratio: 680 / 503;
+    height: 200px;
 }
 @keyframes loh {
   0%,
