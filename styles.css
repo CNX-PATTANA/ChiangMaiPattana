@@ -10,7 +10,8 @@ header {
   background: #fff;
   padding: 10px 20px;
     position: fixed;
-    width: 100%;
+    width: -webkit-fill-available;
+    width: ;
     z-index: 999;
 }
 
