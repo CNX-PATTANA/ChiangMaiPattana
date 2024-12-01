@@ -9,6 +9,9 @@ header {
   align-items: center;
   background: #fff;
   padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .logo img {
@@ -108,7 +111,7 @@ main .flex{
 
 main {
     padding: 0 5%;
-    height: calc(100vh - 56.8px);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
