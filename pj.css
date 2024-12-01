@@ -47,3 +47,6 @@ section#section{
       grid-template-columns: 1fr;
     }
   }
+.menu li{
+    list-style: none;
+}
