@@ -115,6 +115,7 @@ main .flex{
 main {
     padding: 0 5%;
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,5 +257,6 @@ p.menu-p:hover{
 
 section#menu {
     background: url(https://wallpapercat.com/w/full/0/8/4/176084-3840x2160-desktop-4k-rainbow-wallpaper.jpg) no-repeat;
+    width: 100%;
 }
 /*  */
