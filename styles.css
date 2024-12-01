@@ -21,18 +21,19 @@ header {
 }
 
 .menu li {
-  margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
 }
 
 .menu li a {
   text-decoration: none;
   color: #000;
   font-size: 16px;
-  border-bottom: 2px solid transparent;
-  transition: .5s;
 }
 
-.menu li a:hover{
+.menu li:hover{
   border-bottom: 2px solid #d10000;
   transition: .5s;
 }
