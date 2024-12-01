@@ -1,3 +1,8 @@
+.tabs{justify-content: center;position: relative; display: flex ;}
+
+
+/* CARD */
+
 .card--board:hover .card__body,.card--news:hover .card__body,.card--primary:hover .card__body{background-color:#aaa;color:#0c0c0c}
 .card__body {
     color: #0c0c0c;
