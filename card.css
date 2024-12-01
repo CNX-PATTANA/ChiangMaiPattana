@@ -1,4 +1,7 @@
-
+.card__body {
+    color: #0c0c0c;
+    padding: 1.5rem;
+}
 .card-deck .card {
     margin-bottom: 15px;
 }
