@@ -4,7 +4,7 @@
 }
 .card-deck .card {
     margin-bottom: 15px;
-    width: 32%;
+    width: 100%;
 }
 .card--board {
     margin-bottom: 30px !important;
@@ -50,6 +50,6 @@
     }
     .card-deck .card {
         margin-bottom: 15px;
-        width: 100%;
+        width: 32% !important;
     }
 }
