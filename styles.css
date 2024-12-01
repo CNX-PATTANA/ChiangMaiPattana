@@ -30,6 +30,10 @@ header {
   font-size: 16px;
 }
 
+.menu li a:hover{
+	
+}
+	
 .menu-icon {
   display: none !important;
   font-size: 24px;
