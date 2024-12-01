@@ -177,7 +177,35 @@ p {
   </div>
   <script src="script.js"></script>
   <script src="scripts.js"></script>
+  <script>
+	  // เลือก element ที่เกี่ยวข้อง
+const managementTeamTab = document.getElementById("management-team-tab");
+const executiveCommitteeTab = document.getElementById("executive-committee-tab");
+const managementTeamContent = document.getElementById("management-team");
+const executiveCommitteeContent = document.getElementById("executive-committee");
 
+// ฟังก์ชันเพื่อสลับแท็บและแสดงเนื้อหา
+function switchTab(activeTab, inactiveTab, activeContent, inactiveContent) {
+    // เพิ่ม class active ในแท็บที่ถูกเลือก
+    activeTab.classList.add("active");
+    inactiveTab.classList.remove("active");
+
+    // แสดงเนื้อหาของแท็บที่เลือก และซ่อนแท็บที่ไม่ได้เลือก
+    activeContent.style.display = "block";
+    inactiveContent.style.display = "none";
+}
+
+// เพิ่ม event listener เมื่อคลิกแท็บ "Management Team"
+managementTeamTab.addEventListener("click", () => {
+    switchTab(managementTeamTab, executiveCommitteeTab, managementTeamContent, executiveCommitteeContent);
+});
+
+// เพิ่ม event listener เมื่อคลิกแท็บ "Executive Committee"
+executiveCommitteeTab.addEventListener("click", () => {
+    switchTab(executiveCommitteeTab, managementTeamTab, executiveCommitteeContent, managementTeamContent);
+});
+
+  </script>
 </body>
 </html>
 <!-- 
