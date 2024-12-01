@@ -107,9 +107,10 @@ main .flex{
 
 
 main {
-    margin: 0 5%;
+    padding: 0 5%;
     height: calc(100vh - 56.8px);
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(PATTANA.png) center;
 }
