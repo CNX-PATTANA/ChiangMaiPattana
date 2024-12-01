@@ -107,7 +107,12 @@ header {
   }
 
   .menu.show {
-    display: flex;
+        display: block;
+        width: 100%;
+        top: 47.2px;
+        right: 0;
+        padding: .5rem;
+        z-index: 50;
   }
 
   .menu li {
