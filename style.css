@@ -1,16 +1,16 @@
 
 @media (min-width: 1170px) {
     .cont, .cont-pd {
-        max-width: 1170px;
-        padding-left: 30px;
-        padding-right: 30px;
+        max-width: 1170px!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
     }
 }
 @media (min-width: 992px) {
     .cont, .cont-pd {
-        max-width: 990px;
-        padding-left: 30px;
-        padding-right: 30px;
+        max-width: 990px!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
     }
 }
 .cont-pd, cont-pd {
