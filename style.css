@@ -1,0 +1,23 @@
+
+@media (min-width: 1170px) {
+    .cont, .cont-pd {
+        max-width: 1170px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media (min-width: 992px) {
+    .cont, .cont-pd {
+        max-width: 990px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.cont-pd, cont-pd {
+    max-width: 1232px;
+    min-width: 320px;
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 0 16px;
+}
