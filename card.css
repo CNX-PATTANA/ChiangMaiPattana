@@ -8,6 +8,7 @@
 .card--board, .card--news, .card--primary {
     color: #0c0c0c;
     background-color: #f7f7f7;
+    background: #f7f7f7 !important;
 }
 .card {
     border: none;
@@ -38,8 +39,7 @@
 }
 .card-deck {
     display: -ms-flexbox;
-    display: flex
-;
+    display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
 }
