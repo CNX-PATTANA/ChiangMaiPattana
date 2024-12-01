@@ -1,5 +1,28 @@
 .tabs{justify-content: center;position: relative; display: flex ;}
+.nav-tab {border-bottom: none;}
+.nav-tabs {border-bottom: 1px solid #dee2e6;}
+.nav {
+    display: -ms-flexbox;
+    display: flex
+;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
 
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs-ms .nav-link.active, .nav-tabs-py .nav-link.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
 
 /* CARD */
 
