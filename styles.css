@@ -48,7 +48,59 @@ header {
   font-size: 24px;
   cursor: pointer;
 }
+.menu li a:hover {
+  border-bottom: 2px solid #d10000;
+}
 
+/* Submenu */
+.submenu {
+  list-style: none;
+    padding: 0 0 5px 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  background: #fff;
+  display: none; /* ซ่อนเมนูย่อยโดยค่าเริ่มต้น */
+  z-index: 10;
+}
+
+.submenu li:last-child {
+  border-bottom: none;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.submenu li a:hover {
+  background: #f0f0f0;
+}
+
+/* Active Submenu (แสดงเมนูย่อย) */
+.menu-item.active .submenu {
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 780px) {
+  .submenu{
+    position: relative;
+  }
+  .menu.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+}
 /* Responsive Design */
 @media (max-width: 780px) {
   .logo img {
