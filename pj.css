@@ -1,4 +1,6 @@
-
+section#section{
+  background: url(https://wallpapercat.com/w/full/0/8/4/176084-3840x2160-desktop-4k-rainbow-wallpaper.jpg) no-repeat;
+}
   .project-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
