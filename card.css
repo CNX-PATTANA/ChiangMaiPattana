@@ -2,14 +2,15 @@
 .card__body {
     color: #0c0c0c;
     padding: 1.5rem;
+    transition: .5s !important;
 }
 .card-deck .card {
     margin-bottom: 15px;
     width: 100%;
 }
 .card--board {
-    transition:all .5s;
     margin-bottom: 30px !important;
+    transition: .5s !important;
 }
 .card--board, .card--news, .card--primary {
     color: #0c0c0c;
