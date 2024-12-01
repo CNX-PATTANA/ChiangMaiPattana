@@ -243,7 +243,12 @@ p.menu-p{
     padding: 20px;
     background: #d10000;
     border-radius: 10px;
-    
+    transition: .5s;
+}
+
+p.menu-p:hover{
+    background: #e86000;
+    transition: .5s;
 }
 
 section#menu {
