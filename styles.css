@@ -261,3 +261,10 @@ section#menu {
     width: 100%;
 }
 /*  */
+
+
+@media (max-width: 780px) {
+    .ui-font-bold {
+        font-weight: 700;
+    }
+}
