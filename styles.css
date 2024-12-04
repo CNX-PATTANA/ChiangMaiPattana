@@ -327,3 +327,15 @@ section#menu {
         font-weight: 700;
     }
 }
+/* ปรับแต่งปุ่มลิงก์ */
+#backToTop {
+    transition: color 0.3s ease;
+}
+#backToTop:hover {
+    color: #0056b3;
+}
+
+/* สไตล์สำหรับไอคอน Font Awesome */
+i.fa-solid.fa-arrow-up {
+    margin-left: 5px;
+}
