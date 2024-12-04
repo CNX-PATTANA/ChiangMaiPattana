@@ -328,14 +328,17 @@ section#menu {
     }
 }
 /* ปรับแต่งปุ่มลิงก์ */
-#backToTop {
-    transition: color 0.3s ease;
-}
-#backToTop:hover {
-    color: #0056b3;
+/* สไตล์ลิงก์ใน footer */
+footer a {
+    transition: color 0.3s;
 }
 
-/* สไตล์สำหรับไอคอน Font Awesome */
-i.fa-solid.fa-arrow-up {
-    margin-left: 5px;
+footer a:hover {
+    color: #ccc;
+}
+
+/* สไตล์สำหรับไอคอน */
+i {
+    font-size: 16px;
+    vertical-align: middle;
 }
