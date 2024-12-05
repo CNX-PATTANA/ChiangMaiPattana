@@ -15,3 +15,46 @@
 .no.seat{
     background: transparent;
 }
+
+
+    @media (max-width: 768px) {
+        .seat {
+            width: 30px;
+            height: 30px;
+            background: #d10000;
+            border-radius: 50%;
+    		transition: .5s;
+        }
+    }
+    .tooltip-content {
+        position: absolute;
+        top: 100%; /* ตำแหน่งให้อยู่ด้านบนของกล่อง */
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #111; /* สีพื้นหลัง */
+        color: #fff; /* สีตัวอักษร */
+        padding: 5px 10px; /* ระยะห่างภายใน */
+        border-radius: 5px; /* มุมโค้ง */
+        white-space: nowrap; /* ป้องกันข้อความตัดบรรทัด */
+        font-size: 12px; /* ขนาดฟอนต์ */
+        display: none;
+        z-index: 10; /* ให้ tooltip อยู่ด้านบน */
+    }
+
+    .Chairman:hover .tooltip-content ,
+    .vp:hover .tooltip-content {
+        display: block; /* แสดง tooltip เมื่อ hover */
+    }
+    .Chairman {
+        position: relative;
+        cursor: pointer;
+    }
+    .vp{
+        position: relative;
+        cursor: pointer;
+    }
+    .mt-5{margin-top: 2rem;}
+    p{
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
