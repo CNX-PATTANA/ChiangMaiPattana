@@ -12,7 +12,7 @@ header {
   padding: 10px 20px;
     position: fixed;
     width: -webkit-fill-available;
-    width: ;
+    width: -moz-available;
     z-index: 999;
 }
 
